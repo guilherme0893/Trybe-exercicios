@@ -8,3 +8,5 @@ JavaScript
 - CSS
 - JavaScript
 - HTML
+- HTML
+- JavaScript
