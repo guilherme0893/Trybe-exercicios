@@ -6,3 +6,7 @@ O que eu vou aprender na Trybe:
 JavaScript
 - HTML
 - CSS
+- JavaScript
+- HTML
+- HTML
+- JavaScript
