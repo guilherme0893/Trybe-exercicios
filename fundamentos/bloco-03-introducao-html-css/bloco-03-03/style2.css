@@ -1,0 +1,16 @@
+h1,p {
+    text-align: center;
+}
+
+li:hover{
+    background-color: blue;
+}
+
+li:active{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.motivos, .sites{
+    list-style: none;
+}
