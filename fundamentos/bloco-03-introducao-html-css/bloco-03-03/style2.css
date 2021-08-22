@@ -1,16 +1,10 @@
-h1,p, ul {
-    text-align: center;
+div:hover{
+    border: 10px solid black;
 }
 
-li:hover{
+div:nth-of-type(1){
+    background-color: red;
+}
+div:nth-of-type(2){
     background-color: blue;
-}
-
-li:active{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-.motivos, .sites{
-    list-style: none;
 }
