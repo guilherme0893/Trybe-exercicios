@@ -1,19 +1,35 @@
-.header{
-   text-align: center;
-
+body{
+    text-align: center;
+    margin: auto;
+    
 }
 
-.navegation-links{
-    display: inline-block;
 
+.header{
+   text-align: center;
+   
+}
+
+.navegation-links ul{
+    text-align: center;
+ }
+ 
+ .navegation-links ul > li{
+    display: inline-block;
+    margin-right: 65px;
+}
+
+.navegation-links li:hover{
+    font-weight: bold;
 }
 
 .content{
-
+    display: block;
+    margin:0px 40px 0px 40px;
 }
 
 .main-article{
-
+    
 }
 
 .first-section{
@@ -28,13 +44,32 @@
 
 }
 
-.table{
+.image1, .image2, .image3{
+    width: 50%;
+}
+
+.tabela{
+    width: 50%;
+    margin-left:450px
+    
+}
+
+.table th, td{
+    border: 1px solid black; 
 
 }
 
-.references{
-
+.references h3{
+    text-align: center;
+    
 }
+
+.references ul, li{
+    text-align: center;
+    list-style-position: inside;
+    margin-right: 25px;
+}
+
 
 .footnote{
 
