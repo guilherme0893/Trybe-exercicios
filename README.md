@@ -13,71 +13,74 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 1-3: _Unix & Shell- Part 1_
 - [X] 1-4: _Unix & Shell- Part 2_
 
-### Bloco 2: Git & GitHub
+### Bloco 2: Git & GitHub, e Internet
 
-- [X] 2-1: _O que são e para que serve?_
+- [X] 2-1: _O que é e para que serve?_
 - [X] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+- [X] 2-3: _Internet - Entendendo como ela funciona_
 
-### Bloco 3: Introdução - HTML & CSS
+### Bloco 3: Introdução à HTML & CSS
 
-- [ ] 3-1: _HTML & CSS - Estruturas de página_
-- [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML Semântico_
-- [ ] 3-5: _Projeto - HTML & CSS_
+- [X] 3-1: _HTML & CSS - Estruturas de página_
+- [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [X] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [X] 3-4: _HTML Semântico_
+- [X] 3-5: _Projeto - Lessons Learned_
 
-### Bloco 4: Introdução - JavaScript
+### Bloco 4: Introdução à JavaScript e Lógica de Programação
 
-- [ ] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
+- [X] 4-1: _JavaScript - Introdução_
+- [X] 4-1: _JavaScript - Primeiros Passos_
+- [X] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ ] 4-4: _JavaScript - Objetos e funções
+- [ ] 4-4: _JavaScript - Objetos e funções_
 - [ ] 4-5: _Projeto - Playground Functions_
 
-### Bloco 5: Introdução - JavaScript - Projetos
+### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
 - [ ] 5-1: _JavaScript - DOM e seletores_
 - [ ] 5-2: _JavaScript - Trabalhando com elementos_
 - [ ] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _Projeto - Meme Generator_
-- [ ] 5-6: _Projeto - Arte com Pixels_
-- [ ] 5-7: _Projeto - Lista de tarefas_
+- [ ] 5-5: _Projeto - JavaScript - Projetos_
+- [ ] 5-5: _Projeto - Arte com Pixels_
+- [ ] 5-6: _Projeto - Lista de tarefas_
+- [ ] 5-7: _Projeto - Meme Generator_
 - [ ] 5-7: _Projeto - Adivinhe a Cor_
 - [ ] 5-7: _Projeto - Carta Misteriosa_
 
-### Bloco 6: HTML & CSS avançado
+### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo
 
 - [ ] 6-1: _HTML & CSS - Forms_
 - [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [ ] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _Projeto - Página inicial do Facebook_
+- [ ] 6-6: _Projeto - Trybewarts_
 
-### Bloco 7: JavaScript ES6 & Testes Unitários
+### Bloco 7: Introdução à JavaScript ES6 & Testes Unitários
 
 - [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 7-2: _JavaScript ES6 - Objects_
 - [ ] 7-3: _Testes unitários em JavaScript_
 - [ ] 7-4: _Projeto - JavaScript Testes Unitários_
 
-### Bloco 8: JavaScript ES6
+### Bloco 8: Higher Order Functions do JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _Projeto - Zoo functions_
+- [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
+- [ ] 8.2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [ ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [ ] 8-6: _Projeto - Zoo functions_
 
-### Bloco 9: Assincronicidade & Callbacks
+### Bloco 9: JavaScript Assíncrono & Callbacks
 
 - [ ] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript Promises_
 - [ ] 9-3: _Projeto - Carrinho de Compras_
 
-### Bloco 10: Jest
+### Bloco 10: Testes automatizados com Jest
 
 - [ ] 10-1: _Primeiros passos no Jest_
 - [ ] 10-2: _Jest - Testes Assíncronos
@@ -94,16 +97,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 12: React
 
-- [ ] 12-1: _Components com estado_
-- [ ] 12-2: _Eventos e formulários no React_
+- [ ] 12-1: _Components com estado eventos_
+- [ ] 12-2: _Formulários no React_
 - [ ] 12-3: _Projeto - Movie Cards Library Stateful_
 
 ### Bloco 13: React
 
-- [ ] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [ ] 13-2: _Ciclo de vida de componentes em React_
-- [ ] 13-3: _React Router_
-- [ ] 13-4: _Projeto - Movie Cards Library CRUD_
+- [ ] 13-1: _Ciclo de vida de componentes_
+- [ ] 13-2: _React Router_
+- [ ] 13-3: _Projeto - Movie Cards Library CRUD_
 
 ### Bloco 14: Metodologias Ágeis
 
@@ -112,18 +114,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 15: Testes em React
 
-- [ ] 15-1: _Testando React com a React Testing Library_
-- [ ] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [ ] 15-3: _Projeto - Testes em React_
+- [ ] 15-1: _React Testing Library (RTL) Primeiros passos_
+- [ ] 15-2: _RTL Mocks & Inputs_
+- [ ] 15-3: _RTL Testando React Router_
+- [ ] 15-4: _Projeto - Testes em React_
 
 ### Bloco 16: Introdução ao Redux
 
-- [ ] 16-1: Introdução ao Redux_
-- [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - Prática
-- [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes síncronos com React-Redux_
-- [ ] 16-6: _Projeto - Tabela com filtros de dados_
+- [ ] 16-1: _Introdução ao Redux - O estado global da aplicação_
+- [ ] 16-2: _Usando o Redux no React_
+- [ ] 16-3: _React com Redux - Prática_
+- [ ] 16-4: _React com Redux - Actions Assíncronas_
+- [ ] 16-5: _Testes em React-Redux_
+- [ ] 16-6: _Projeto - Trybe Wallet_
 
 ### Bloco 17: Projeto React
 
@@ -142,19 +145,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-### Bloco 20: Introdução - Bancos de dados relacionais
+### Bloco 20: Introdução à SQL
 
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especÃ­fica_
+- [ ] 20-3: _Filtrando dados de forma específica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _Projeto - All For One_
 
 ### Bloco 21: Bancos de dados relacionais
 
 - [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
+- [ ] 21-2: _Descomplicando JOINs, UNIONs e Subqueries_
+- [ ] 21-3: _Stored Routines & Stores Functions_
 - [ ] 21-4: _Projeto - Vocabulary Booster_
 
 ### Bloco 22: Bancos de dados relacionais
@@ -164,8 +167,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [ ] 22-3: _Projeto - One For All_
 
-### Bloco 23: Introdução - NoSQL
+### Bloco 23: Introdução ao MongoDB
 
+- [ ] 23-1: _Introdução NoSQL_
 - [ ] 23-1: _MongoDB - Introdução_
 - [ ] 23-2: _Filter Operators_
 - [ ] 23-3: _Projeto - Data Flights_
@@ -183,76 +187,102 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 25-2: _Aggregation Framework - Part 2_
 - [ ] 25-3: _Projeto - Aggregations_
 
-### Bloco 26: Intro - NodeJS
+### Bloco 26: Introdução ao desenvolvimento Web com NodeJS
 
 - [ ] 26-1: _NodeJS - Introdução_
 - [ ] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _Projeto - A CLI of Ice and Fire_
+- [ ] 26-3: _NodeJS - Testes com NodeJS_
+- [ ] 26-4: _NodeJS - Express: HTTP com NodeJS_
+- [ ] 24-5: _NodeJS - Express:Middlewares_
+- [ ] 26-6: _Projeto - Talker Manager_
 
-### Bloco 27: NodeJS
+### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software : Introdução ao MVC_
-- [ ] 27-3: _Projeto - Cookmaster_
+- [ ] 27-1: _Arquitetura de Software - Camada de Model_
+- [ ] 27-2: _Arquitetura de Software : Camada de Controller e Service_
+- [ ] 27-3: _Arquitetura Web - Rest & Restful_
+- [ ] 27-4: _Arquitetura de Software - Testando as Camadas_
+- [ ] 27-5: _Projeto - Store Manager_
 
-### Bloco 28: NodeJS
+### Bloco 28: Autenticação e Upload de Arquivos
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _Projeto - Store Manager_
+- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
+- [ ] 28-2: _NodeJS - Upload de arquivos com 'multer'_
+- [ ] 28-3: _NodeJS - Testando APIs com Testes de Integração_
+- [ ] 28-4: _Projeto - Cookmaster_
 
-### Bloco 29: NodeJS
+### Bloco 29: Deployment
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _Projeto - Cookmaster V2_
+- [ ] 29-1: _Introdução - Deploy_
+- [ ] 29-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 29-2: _Deploy - Gerenciadores de Processos_
+- [ ] 29-3: _Projeto - Stranger Things_
 
-### Bloco 30: Introdução - Deploy
+### Bloco 30: Arquitetura: SOLID e ORM
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _Projeto - Stranger Things_
+- [ ] 30-1: _Arquitetura - Princípios SOLID_
+- [ ] 30-2: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 30-3: _ORN - Associations_
+- [ ] 30-4: _Projeto - API de Blogs_
 
-### Bloco 31: Projeto
+### Bloco 31: Sockets
 
-- [ ] 31-1: _Projeto - Trybeer_
+- [ ] 31-1: _Arquitetura de Software - Camada de View_
+- [ ] 31-2: _Sockets - TCP/UDP & NET_
+- [ ] 31-3: _Sockets - Socket.io_
+- [ ] 31-4: _Sockets - Praticando Socket.io_
+- [ ] 31-5: _Projeto - Webchat_
 
-### Bloco 32: Arquitetura de Software
+### Bloco 32: Projeto
 
-- [ ] 32-1: _Arquitetura - Princípio SOLID_
-- [ ] 32-2: _ORM - Interface da aplicações com o banco de dados_
-- [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas práticas na escrita de testes_
-- [ ] 32-3: _Projeto - API de Blogs_
-
-### Bloco 33: Sockets
-
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _Projeto - Webchat_
-
-### Bloco 34: Projeto
-
-- [ ] 34-1: _Projeto - Trybeer V2_
+- [ ] 34-1: _Projeto - App de Delivery_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-### Bloco 35: Introdução - Ciência da Computação
+### Bloco 33: Introdução à Python
 
-- [ ] 35-1: _Arquitetura de Computadores_
-- [ ] 35-2: _Arquitetura de redes_
-- [ ] 35-3: _Redes de computadores, ferramentas e segurança
-- [ ] 35-4: _Projeto - Explorando os protocolos_
-
-### Bloco 36: Python
-
+- [ ] 35-1: _Introdução - Ciência da Computação_
 - [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Testes e Execuções
-- [ ] 35-3: _Entrada e saída de dados_
-- [ ] 36-4: _Entrada e saída de dados_
-- [ ] 35-5: _Projeto - Tech news_
+- [ ] 35-2: _Entrada e Saída de Dados_
+- [ ] 35-3: _Testes_
+- [ ] 35-4: _Projeto - Jobs Insights_
 
-#### Esse template segue o padrão e o código pela Trybe, porém com sutis mudanças no tamanho das fontes -- todos os créditos aos autores
+### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
+
+- [ ] 34-1: _Introdução à programação orientada a objeto_
+- [ ] 34-2: _Herança. Composição e Interfaces_
+- [ ] 34-3: _Padrões de projeto_
+- [ ] 34-4: _Projeto - Relatórios de Estoque_
+
+### Bloco 35: Redes e Raspagem de Dados
+
+- [ ] 35-1: _Arquitetura de redes_
+- [ ] 35-2: _Redes de computadores, ferramentas e segurança_
+- [ ] 35-3: _Raspagem de dados_
+- [ ] 35-4: _Projeto - Tech news_
+
+### Bloco 36: Algoritmos
+
+- [ ] 36-1: _Complexidade de Algoritmos_ 
+- [ ] 36-2: _Recursividade e Estratégias para solução de problemas_
+- [ ] 36-3: _Algoritmos de ordenação e busca_
+- [ ] 36-4: _Projeto - Algoritmos_
+  
+### Bloco 37: Algoritmos
+
+- [ ] 37-1: _Arquitetura de Computadores_
+- [ ] 37-2: _Arrays_
+- [ ] 37-3: _AHashmap e Dict_
+- [ ] 37-4: _Set_
+- [ ] 37-5: _Projeto - Restaurant Orders_
+
+### Bloco 38: Estruturas de Dados II: Listas, Filas e PILHAS
+
+- [ ] 38-1: _Nó e Listas Encadeadas_ 
+- [ ] 38-2: _Deque_
+- [ ] 38-3: _Pilhas_
+- [ ] 38-4: _Projeto - TING - Trybe Is Not Google
+
+#### Esse template segue o padrão e o código pela Trybe, no entanto foram as disciplinas foram atualizadas seguindo a grade da Turma 16 -- todos os créditos aos autores
 
 #### Esse README estará em constante atualização durante os próximos meses
