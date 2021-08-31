@@ -8,4 +8,4 @@ function verificaPalindrome(palavra){
         return false;
     }
 }
-console.log(verificaPalindrome('xxx'));
+console.log(verificaPalindrome('arara'));
