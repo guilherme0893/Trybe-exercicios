@@ -57,77 +57,50 @@
   </head>
   <body>
     <script>
-        //   // COLOQUE SEU CÓDIGO AQUI
-        //   const elementH1 = document.createElement('h1');
-        //   elementH1.innerText = 'Exercicio 5.2 - JS DOM';
-        //   document.body.appendChild(elementH1);
-
-        //   const elementMain = document.createElement('main');
-        //   elementMain.className = 'main-content';
-        //   document.body.appendChild(elementMain);
-
-        //   const elementSection = document.createElement('section');
-        //   elementSection.className = 'center-content';
-        //   elementMain.appendChild(elementSection);
-
-        //   const elementP = document.createElement('p');
-        //   elementP.innerText = 'Texto de teste';
-        //   elementSection.appendChild(elementP);
-
-        //   const elementLeft = document.createElement('section');
-        //   elementLeft.className = 'left-content';
-        //   elementMain.appendChild(elementLeft);
-
-        //   const elementRight = document.createElement('section');
-        //   elementRight.className = 'right-content';
-        //   elementMain.appendChild(elementRight);
-
-        //   const elementImage = document.createElement('img');
-        //   elementImage.src =  'https://picsum.photos/200';
-        //   elementImage.className = 'small-image';
-        //   elementLeft.appendChild(elementImage);
-
-        // //   const elementList = document.createElement('ul');
-        // //   elementRight.appendChild(elementList);
-        // //   const numeros = ['um', 'dois', 'tres', 'quatro', 'quinto',
-        // // 'sexta', 'sete', 'oito', 'nove', 'dez'];
-        // //   for (let i = 0; index < numeros.length; i +=1) {
-        // //       const elementNumber = document.createElement('li');
-        // //       elementNumber.innerHTML = numeros[i];
-        // //       elementList.appendChild(elementNumber);
-        // //   }
-
-        //   const elementUl = document.createElement('ul');
-        //   elementSectionRight.appendChild(elementUl);
-        //   const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
-        //     'Sete', 'Oito', 'Nove', 'Dez']
-        //   for (let num in arrayNumbers) {
-        //     const elementLi = document.createElement('li');
-        //     elementLi.innerHTML = arrayNumbers[num];
-        //     elementUl.appendChild(elementLi);
-        //   }
-
-        //   for (let index = 1; index <= 3; index += 1) {
-        //       const elementH3 = document.createElement('h3');
-        //       elementMain.appendChild(elementH3);
-        //   }
-
-        //  const title = document.querySelector('h1');
-        //  title.className = 'title';
-
-        //  const elementH3 = document.getElementsByTagName('h3');
-        //  for (let index = 0; index < 3; index += 1) {
-        //      elementH3[index].className = 'description';
-        //  }
-
-        //  elementMain.removeChild(document.getElementsByClassName('left-content')[0]);
-
-        //  const sectionRight = document.getElementsByClassName('right-content');
-        //  sectionRight.style.marginRight = "auto";
-        
-        //  const sectionLeft = document.getElementsByClassName('center-content')[0];
-        //  sectionLeft.parentNode.style.backgroundcolor = 'green';
-
+      // 1 Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body ;
+      let textoH1 = document.createElement('h1');
+      textoH1.innerText = 'Exercício 5.2 - JavaScript DOM';
+      document.body.appendChild(textoh1);
+      // 2 Adicione a tag main com a classe main-content como filho da tag body ;
+      let tagMain = document.createElement('main');
+      tagMain.className = 'main-content';
+      document.body.appendChild(tagMain);
+      // 3 Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+      let tagSection = document.createElement('section');
+      tagSection.className = 'center-content';
+      tagMain.appendChild(tagSection);
+      // 4 Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+      let tagP = document.createElement('p');
+      tagP.innerHTML = 'Exercício número 04';
+      tagSection.appendChild(tagP);
+      // 5 Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+      let tagSectionLeft = document.createElement('section');
+      tagSectionLeft.className = 'left-content';
+      tagMain.appendChild(tagSectionLeft);
+      // 6 Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
+      let tagSectionRight = document.createElement('section');
+      tagSectionRight.className = 'right-content';
+      tagMain.appendChild(tagSectionRight);
+      // 7 Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image . Esse elemento deve ser filho do section criado no passo 5;
+      let image = document.createElement('img');
+      image.src = 'https://picsum.photos/200';
+      image.className = 'small-image';
+      document.tagSectionLeft.appendChild(image);
+      // 8 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+      let listaNaoOrdernada = document.createElement('ul');
+      tagSectionRight.appendChild(listaNaoOrdernada);
+      let numeros = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      for (let i = 0; i > numeros.length; i += 1) {
+        let listaElemento = document.createElement('li');
+        listaElemento.innerHTML = numeros[i];   
+        listaNaoOrdernada.appendChild(listaElemento);
+      }
+      // 9 Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2;
+      let tagH3 = document.createElement('h3');
+      for (let i = 1; i <= 3; i += 1) {
+        i = tagh3;
+        tagMain.appendChild(tagh3);
+      }
     </script>
   </body>
 </html>
