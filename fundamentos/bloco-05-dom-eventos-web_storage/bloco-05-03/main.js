@@ -9,10 +9,12 @@ const myWebpage = document.getElementById('my-spotrybefy');
 
 // 2. Crie uma função que adicione a classe 'tech' ao elemento selecionado;
 function addTech (evento) {
-    let classTech = document.getElementsByClassName('tech')[0];
+    let classTech = document.querySelector('tech');
+    // opção de remover com className vazio
+    // classTech.className = ''
     classTech.classList.remove('tech');
-    evento.target.classList.add('tech');
-    input.value = ''
+    evento.target.className = 'tech';
+    // input.value = ''
 }
 firstLi.addEventListener('click', addTech);
 secondLi.addEventListener('click', addTech);

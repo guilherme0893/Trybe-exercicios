@@ -132,6 +132,64 @@ function criaCorTask(cor) {
 };
 criaCorTask('red');
 
+// Exercício 9
+
+function changeTask() {
+// checar o className tasks se foi usado mesmo;
+  let tasks = document.querySelector('task');
+// criar um for para a seleção caso houvesse mais de um elemento
+  tasks.addEventListener('click', function(evento) {
+// pensar como usar o .toogle
+// seleciona o elemento onde está acontecendo o evento -- com tal parametro
+//    evento.target.className = 'task selected';
+// criar um if para acessar as classes;
+    if (evento.target.classList.length === 1) {
+    evento.target.classList.add('selected');
+  } else {
+    evento.target.classList.remove('selected');
+  }
+  })
+}
+changeTask();
+
+//Exercício 10
+// entender o tal do onset
+function changeBackgroundColor() {
+  // checar se a classe é mesmo days ou day
+  let days = document.querySelectorAll('.day');
+
+  for (let index = 0; index < days.length; index +=1 ) {
+    days[index].addEventListener('click', function(event) {
+      // a classe selected só nasce depois de clicar na bolinha
+      let selectedTask = document.querySelector('.selected');
+      let color = selectedTask.style.backgroundColor;
+      if (event.target.style.color === color) {
+        event.target.style.color = 'rgb(119,119,119)';
+      } else {
+      event.target.style.color = color;
+      }
+    });
+  }
+}
+
+// bonus
+function addAppointment() {
+  // o que é value
+  let button = document.querySelector('#btn-add');
+  button.addEventListener('click', function(event) {
+  let text = document.querySelector('#task-input').value;    
+    if (text.length === 0) {
+      alert('Erro!')
+    } else {
+      let getList = document.querySelector('.task-list');
+      let listItem = document.createElement('li');
+      listItem.innerHTML = text;
+      getList.appendChild(listItem);
+    }
+  })
+}
+addAppointment();
+
 // function criadorDeFeriado (Feriados) {
 //   let feriado = document.querySelector('.buttons-container');
 // }
