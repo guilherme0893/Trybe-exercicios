@@ -1,0 +1,50 @@
+
+@media screen and (max-width:600px) {
+  body {
+    text-align: center;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .main-content {
+    padding: 50%;
+    line-height: 1.5em;
+  }
+
+  ul li {
+    list-style-position: inside;
+    list-style-type: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    flex-wrap: nowrap;
+    line-height: 1.5em;
+  }
+
+}
+
+header {
+	text-align: center;
+}
+aside {
+  text-align: center;
+}
+
+ul li {
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+.main-content {
+  padding: 40px;
+}
+
+
+/* html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  } */
