@@ -1,0 +1,32 @@
+.container div {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.state {
+    margin-right: 10px;
+}
+
+#input-name-row {
+    margin-top: -5px;
+}
+
+/* body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:antiquewhite;
+    border: auto;
+    text-align: center;
+}
+
+#input-name-field {
+    padding: 15px;
+    border: none;
+}
+
+.input-name {
+    background-color: whitesmoke;
+} */
