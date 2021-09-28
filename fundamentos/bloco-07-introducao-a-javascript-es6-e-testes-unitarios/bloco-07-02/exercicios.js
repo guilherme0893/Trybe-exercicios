@@ -190,12 +190,27 @@ getMathStudents(allLessons);
 
 // BONUS 02
 
-const createReport = (object) => {
-  let professorReport = object
+const infoReport = (object, nome) => {
+  let lessons = [];
+  let studentsTotal = 0;
+  const objectValues = Object.values(object);
 
-  let novoObject = {
-    professor = '',
-    aulas = '',
-    estudantes = '',
+  for (index in objectValues) {
+    if (objectValues[index]['professor'] === nome) {
+      lessons.push(objectValues[index]['materia'])
+      studentsTotal = studentsTotal + objectValues[index]['numeroEstudantes']      
+    }
+  }
+  return {
+    lessons: lessons,
+    students: studentsTotal,
   }
 }
+
+const createReport = (object, nome) => {
+  const report = {};
+  report.professor = nome;
+  Object.assign(report, infoReport(allLessons, nome));
+  return console.log(report)
+}
+createReport(allLessons, 'Maria Clara');
