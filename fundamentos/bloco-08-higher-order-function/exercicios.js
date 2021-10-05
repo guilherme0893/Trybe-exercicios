@@ -17,7 +17,7 @@ const doingThings = (callback) => {
 console.log(doingThings(returnString));
 
 const createEmployee = (string) => {
-  let employeeEmail = string.split(' ').join('-');
+  let employeeEmail = string.split(' ').join('').toLowerCase();
   let employeeObject = {
     nomeCompleto: string,
     email: `${employeeEmail}@trybe.com`,
@@ -43,18 +43,20 @@ const poolNumbers = () => {
 // console.log(poolNumbers());
 // no gabarito ele pede para considerar um número escolhido pelo usário e tratar o comparativo como outra function
 
-const poolResult = (callback) => {
+const poolResult = (number, callback) => {
   let numeroSorteado = Math.floor(Math.random() * (5 - 1) + 1);
+  console.log(numeroSorteado);
+  console.log(number);
   // console.log(numeroSorteado);
   // console.log(poolNumbers());
-  if (numeroSorteado !== poolNumbers()) {
+  if (numeroSorteado !== number) {
     return 'Tente novamente'
   } else {
     return 'Parabéns você ganhou'
   }
   // poderia usar um operador ternário com ? :
 }
-console.log(poolResult(poolNumbers));
+console.log(poolResult(2, poolNumbers));
 
 const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
