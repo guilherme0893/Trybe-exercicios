@@ -67,7 +67,8 @@ const books = [
 // Adicione o código do exercício aqui:
 
 function authorBornIn1947() {
-  return books.find((book) => book['author']['birthYear'] === 1947).author.name;
+  // até a condição do ano, se ela for verdadeiro -- o find achar o primeiro resultado -- e podemos acessar um valor específico do objeto
+  return books.find((book) => book['author']['birthYear'] === 1947)['author']['name'];
 }
 console.log(authorBornIn1947());
 

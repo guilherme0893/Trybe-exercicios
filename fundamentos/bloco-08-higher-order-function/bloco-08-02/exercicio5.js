@@ -64,6 +64,7 @@ const books = [
 const expectedResult = false;
 
 function everyoneWasBornOnSecXX() {
+  // every testa se TODOS passam por um teste determinado, e ai retorna true ou false
   return books.every((book) => (
     book.author['birthYear'] > 1900 || book.author['birthYear'] <= 2000
   ))

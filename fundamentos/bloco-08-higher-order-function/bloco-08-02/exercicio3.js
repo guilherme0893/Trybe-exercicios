@@ -73,7 +73,8 @@ const expectedResult = {
 };
 
 function getNamedBook() {
-  return books.find((book) => 
-    book['name'].length === 26);
+  // o find trás uma condição sendo true; se satisfeita, ele trás o primeiro apenas
+  // return books.find((book) => book['genre'] === 'Ficção Científica')
+  return books.find((book) => book['name'].length === 26);
 }
-console.log(getNamedBook())
+console.log(getNamedBook());

@@ -64,8 +64,12 @@ const books = [
 const expectedResult = false;
 
 function authorUnique() {
-  return books.every((book)) =>
-  
-}
+  return books.every((book) => 
+  // o every retorna true ou false; o !book é uma negação para retornar um valor true para seguir a função -- ele é vazio? --
+    !books.some((someBook) =>
+      (someBook['author']['birthYear'] === book['author']['birthYear'])
+      && (someBook['author']['name'] !== book['author']['name'])))  
+};
+console.log(authorUnique())
 
-assert.strictEqual(authorUnique(), expectedResult);
+// assert.strictEqual(authorUnique(), expectedResult);

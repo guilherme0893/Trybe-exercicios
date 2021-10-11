@@ -65,6 +65,7 @@ const expectedResult = true;
 
 function someBookWasReleaseOnThe80s() {
   return books.some((book) => 
+  // o some retorna true ou false se tal condição for satisfeita
     book['releaseYear'] >= 1980 && book['releaseYear'] <= 1989);
 };
 console.log(someBookWasReleaseOnThe80s())

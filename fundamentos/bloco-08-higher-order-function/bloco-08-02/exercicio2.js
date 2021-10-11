@@ -63,7 +63,9 @@ const books = [
 
 function smallerName() {
   let nameBook;
+  console.log(!nameBook)
   books.forEach(name => {
+    // a negação de uma variável vazia é true. outro ponto de usar o !nameBook é que a primeira já pode ser a menor
     if (!nameBook || name['name'].length < nameBook.length) {
       nameBook = name['name'];
     }    
