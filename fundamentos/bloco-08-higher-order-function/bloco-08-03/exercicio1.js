@@ -73,6 +73,7 @@ const books = [
 // ];
 
 function formatedBookNames() {
+  // o map retorna um novo array -- no caso ele retorna um array com os itens criados abaixo
   return books.map((book) => `${book['name']} - ${book['genre']} - ${book['author']['name']}`);
 }
 console.log(formatedBookNames())

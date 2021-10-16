@@ -69,6 +69,7 @@ const expectedResult = [
 ];
 
 function fantasyOrScienceFictionAuthors() {
+  // aqui é feito um filtro inicial que cria um novo array com os parametros requeridos, depois há um map que cria um novo array com os nomes dos autores
   const sciAndFantasyAuthors = books.filter((book) => (book['genre'] === 'Ficção Científica' || book['genre'] === 'Fantasia'));
   // console.log(sciAndFantasyAuthors);
   const unsortedSciAndFantasyAuthors = sciAndFantasyAuthors.map((autor) => (autor['author']['name']));

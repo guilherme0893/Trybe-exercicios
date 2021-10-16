@@ -90,6 +90,7 @@ const books = [
 
 function nameAndAge() {
   const unsortedAuthors = books.map((autor) => (
+    // o map vai criar um novo array, com base no objeto abaixo e posteriormente ele será ordenado
     {
       author : autor['author']['name'],
       age : autor['author']['birthYear'],

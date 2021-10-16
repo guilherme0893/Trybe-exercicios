@@ -66,7 +66,7 @@ const expectedResult = 'O Senhor dos Anéis';
 function authorWith3DotsOnName() {
   // existe o startswith e tem o endswith -- cool
   return books.find((book) => (
-  // filter trabalha com uma condição
+  // aqui ele filtra o nome após o split para recuperar o que tem ponto no nome
   book['author']['name'].split(' ').filter((word) => word.endsWith('.')).length === 3))['name'];
 }
 console.log(authorWith3DotsOnName())

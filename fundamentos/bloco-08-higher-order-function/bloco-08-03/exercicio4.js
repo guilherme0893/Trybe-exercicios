@@ -87,6 +87,7 @@ const books = [
 
 function oldBooksOrdered() {
   let unsortedOverSixtyYearsBooks = books.filter((book) => ((2021 - book['releaseYear']) > 60));
+  // o filter também cria um novo array
   return unsortedOverSixtyYearsBooks.sort((a, b) => a['releaseYear'] - b['releaseYear']);
 }
 console.log(oldBooksOrdered());
