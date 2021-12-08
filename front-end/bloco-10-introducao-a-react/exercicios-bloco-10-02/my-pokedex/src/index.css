@@ -21,20 +21,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.pokemon {
+main {
   display: flex;
-  flex-wrap: wrap;
+  margin: auto;
   align-items: center;
   justify-content: space-around;
-  flex: 1 1 0;
-  min-width: 25%;
-  margin: 10px 10px;
-  border: 1px gray solid;
-  border-radius: 10px;
 }
 
 .pokedex {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px 10px;
+  margin: 20px;
+}
+
+.pokedex > ul {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 6px;
+  text-align: center;
 }
