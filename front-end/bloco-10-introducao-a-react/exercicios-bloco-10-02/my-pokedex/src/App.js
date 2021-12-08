@@ -10,10 +10,13 @@ import Pokedex from './Pokedex';
 // 'Teoricamente' é o arquivo mais simples, onde é chamada a div pai com o {} entre tags
 class App extends Component {
   render () {
+    // console.log(pokemons)
+    // console.log(Pokedex)
     return (
-      <div>
-        <Pokedex pokemons = {pokemons}/>
-      </div>
+      <main>
+        {/* text="teste" */}
+        <Pokedex pokemons = {pokemons}  />
+      </main>
     )
   }
 }
