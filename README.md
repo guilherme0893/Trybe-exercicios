@@ -148,90 +148,94 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 20: Introdução à SQL
 
-- [ ] 20-1: _FBanco de dados SQL_
+- [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
 - [ ] 20-3: _Filtrando dados de forma específica_
   [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _Projeto - All For One_
 
-### Bloco 21: Bancos de dados relacionais
+### Bloco 21: Funções SQL, JOINs e Normalização
 
-- [ ] 21-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 21-2: _Normalização, Formas Normais e Dumps_
-- [ ] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 21-3: _Projeto - One For All_
+- [ ] 21-1: _TFunções mais usadas na SQL_
+- [ ] 21-2: _Descomplicando JOINs_
+- [ ] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [ ] 21-4: _Projeto - One For All_
 
-### Bloco 22: Introdução ao MongoDB
+### Bloco 22: Introdução ao desenvolvimento Web com NodeJS
 
-- [ ] 22-1: _Introdução NoSQL_
-- [ ] 22-1: _MongoDB - Introdução_
-- [ ] 22-2: _Filter Operators_
-- [ ] 22-3: _Projeto - Data Flights_
+- [ ] 22-1: _NodeJS - Introdução_
+- [ ] 22-2: _NodeJS - Fluxo Assíncrono_
+- [ ] 22-3: _NodeJS - Mocha, Chai e Sinon - Testes de Back-end com NodeJS_
+- [ ] 22-4: _NodeJS - Express: HTTP com NodeJS_
+- [ ] 22-5: _NodeJS - Express:Middlewares_
+- [ ] 22-6: _Projeto - Talker Manager_
 
-### Bloco 23: Updates
+### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 23-1: _Updates Simples_
-- [ ] 23-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 23-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 23-4: _Projeto - Commerce_
+- [ ] 23-1: _Arquitetura de Software - Camada de Model_
+- [ ] 23-2: _Arquitetura de Software : Camada de Controller e Service_
+- [ ] 23-3: _Arquitetura Web - Rest & Restful_
+- [ ] 23-4: _Arquitetura de Software - Testando as Camadas_
+- [ ] 23-5: _Projeto - Store Manager_
 
-### Bloco 24: Aggregation Framework
+### Bloco 24: Node.js: ORM e Autenticação
 
-- [ ] 24-1: _Aggregation Framework - Part 1_
-- [ ] 24-2: _Aggregation Framework - Part 2_
-- [ ] 24-3: _Projeto - Aggregations_
+- [ ] 24-1: _Node.js:ORM e Autenticação_
+- [ ] 24-1: _ORM - Interface da aplicação com banco de dados_
+- [ ] 24-2: _ORM - Associations_
+- [ ] 24-3: _JWT - (JSON Web Token)_
+- [ ] 24-4: _Testando APIs com Testes de Integração_
+- [ ] 24-4: _Projeto - API de Blogs
 
-### Bloco 25: Introdução ao desenvolvimento Web com NodeJS
+### Bloco 25: Deployment
 
-- [ ] 25-1: _NodeJS - Introdução_
-- [ ] 25-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 25-3: _NodeJS - Testes com NodeJS_
-- [ ] 25-4: _NodeJS - Express: HTTP com NodeJS_
-- [ ] 25-5: _NodeJS - Express:Middlewares_
-- [ ] 25-6: _Projeto - Talker Manager_
+- [ ] 25-1: _Introdução - Deploy_
+- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 25-2: _Deploy Docker & Heroku_
+- [ ] 25-3: _Projeto - Stranger Things_
 
-### Bloco 26: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
+### Bloco 26: TypeScript
 
-- [ ] 26-1: _Arquitetura de Software - Camada de Model_
-- [ ] 26-2: _Arquitetura de Software : Camada de Controller e Service_
-- [ ] 26-3: _Arquitetura Web - Rest & Restful_
-- [ ] 26-4: _Arquitetura de Software - Testando as Camadas_
-- [ ] 26-5: _Projeto - Store Manager_
+- [ ] 26-1: _Introdução ao TypeScript_
+- [ ] 26-1: _Tipagem Estática e Generics_
+- [ ] 26-1: _Express com TypeScript_
+- [ ] 26-1: _Projeto - Trybe Smith_
 
-### Bloco 27: Autenticação e Upload de Arquivos
+### Bloco 27: Programação Orientada a Objeto (POO) e SOLID
 
-- [ ] 27-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 27-2: _NodeJS - Upload de arquivos com 'multer'_
-- [ ] 27-3: _NodeJS - Testando APIs com Testes de Integração_
-- [ ] 27-4: _Projeto - Cookmaster_
+- [ ] 27-1: _Introdução à Orientação a Objetos_
+- [ ] 27-2: _Herança e Interfaces_
+- [ ] 27-3: _Polimorfismo_
+- [ ] 27-4: _SOLID - Introdução_
+- [ ] 27-5: _SOLID - Continuação_
+- [ ] 27-6: _Projeto - Trybers and Dragons_
 
-### Bloco 28: Deployment
+### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 28-1: _Introdução - Deploy_
-- [ ] 28-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 28-2: _Deploy - Gerenciadores de Processos_
-- [ ] 29-3: _Projeto - Stranger Things_
+- [ ]: _Projeto TFC - Trybe Futebol Clube_
 
-### Bloco 29: Arquitetura: SOLID e ORM
+### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29-1: _Arquitetura - Princípios SOLID_
-- [ ] 29-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 29-3: _ORN - Associations_
-- [ ] 29-4: _Projeto - API de Blogs_
+- [ ] 29-1: _Introdução NoSQL_
+- [ ] 29-1: _MongoDB - Introdução_
+- [ ] 29-2: _Filter Operators_
+- [ ] 29-3: _Projeto - Data Flights_
 
-### Bloco 30: Sockets
+### Bloco 30: MongoDB: Updates Simples e Complexos
 
-- [ ] 30-1: _Arquitetura de Software - Camada de View_
-- [ ] 30-2: _Sockets - TCP/UDP & NET_
-- [ ] 30-3: _Sockets - Socket.io_
-- [ ] 30-4: _Sockets - Praticando Socket.io_
-- [ ] 30-5: _Projeto - Webchat_
+- [ ] 30-1: _Updates Simples_
+- [ ] 30-2: _Updates Complextos - Array - Parte 1_
+- [ ] 30-3: _Updates Complextos - Array - Parte 2_
+- [ ] 30-4: _Projeto - Commerce_
 
-### Bloco 31: Projeto
+### Bloco 31: MasterClass - VPS, CI/CD
 
-- [ ] 31-1: _Projeto - App de Delivery_
+- [ ] 32-1: _Dia 1_
+- [ ] 32-2: _Dia 2_
 
-### Bloco 32: Projeto - App de Delivery
+### Bloco 32: Projeto
+
+- [ ] 32-1: _Projeto - App de Delivery_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
@@ -274,9 +278,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 38: Estruturas de Dados II: Listas, Filas e PILHAS
 
-- [ ] 38-1: _Nó e Listas Encadeadas_ 
-- [ ] 38-2: _Deque_
-- [ ] 38-3: _Pilhas_
-- [ ] 38-4: _Projeto - TING - Trybe Is Not Google
-
-#### Esse template segue o padrão e o código pela Trybe, no entanto foram as disciplinas foram atualizadas seguindo a grade da Turma 16 -- todos os créditos aos autores
+- [ ] 38-1: _Nó e Listas Encadeadas_
+- [ ] 38-2: _Pilhas e Filas_
+- [ ] 38-3: _Projeto - TING - Trybe Is Not Google_
