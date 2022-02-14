@@ -115,27 +115,27 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 15: Introdução ao Redux
 
-- [ ] 15-1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 15-2: _Usando o Redux no React_
-- [ ] 15-3: _React com Redux - Prática_
-- [ ] 15-4: _React com Redux - Actions Assíncronas_
-- [ ] 15-5: _Testes em React-Redux_
-- [ ] 15-6: _Projeto - Trybe Wallet_
+- [X] 15-1: _Introdução ao Redux - O estado global da aplicação_
+- [X] 15-2: _Usando o Redux no React_
+- [X] 15-3: _React com Redux - Prática_
+- [X] 15-4: _React com Redux - Actions Assíncronas_
+- [X] 15-5: _Testes em React-Redux_
+- [X] 15-6: _Projeto - Trybe Wallet_
 
 ### Bloco 16: Projeto React
 
-- [ ] 16-1: _Projeto - Jogo de Trivia_
+- [X] 16-1: _Projeto - Jogo de Trivia_
 
 ### Bloco 17: React & Context API
 
-- [ ] 17-1: _Context API do React_
-- [ ] 17-2: _React Hooks - useState e useContext_
-- [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 17-4: _Projeto - StarWars Datatable com Context API e Hooks_
+- [X] 17-1: _Context API do React_
+- [X] 17-2: _React Hooks - useState e useContext_
+- [X] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [X] 17-4: _Projeto - StarWars Datatable com Context API e Hooks_
 
 ### Bloco 18: Projeto Final de Front-end
 
-- [ ] 18-1: _Projeto - App de Receitas_
+- [X] 18-1: _Projeto - App de Receitas_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
