@@ -1,0 +1,20 @@
+{
+  "name": "velocidade_media",
+  "version": "1.0.0",
+  "description": "Calculador de velocidade média",
+  "main": "velocidade.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "velocidade": "node velocidade.js"
+  },
+  "keywords": [
+    "fisica",
+    "velocidade",
+    "media"
+  ],
+  "author": "Guilherme Duarte",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
