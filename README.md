@@ -149,25 +149,25 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ### Bloco 20: Introdução à SQL
 
 - [X] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-  [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _Projeto - All For One_
+- [X] 20-2: _Encontrando dados em um banco de dados_
+- [X] 20-3: _Filtrando dados de forma específica_
+  [X] 20-4: _Manipulando tabelas_
+- [X] 20-5: _Projeto - All For One_
 
 ### Bloco 21: Funções SQL, JOINs e Normalização
 
-- [ ] 21-1: _TFunções mais usadas na SQL_
-- [ ] 21-2: _Descomplicando JOINs_
-- [ ] 21-3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 21-4: _Projeto - One For All_
+- [X] 21-1: _TFunções mais usadas na SQL_
+- [X] 21-2: _Descomplicando JOINs_
+- [X] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [X] 21-4: _Projeto - One For All_
 
 ### Bloco 22: Introdução ao desenvolvimento Web com NodeJS
 
-- [ ] 22-1: _NodeJS - Introdução_
-- [ ] 22-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 22-3: _NodeJS - Mocha, Chai e Sinon - Testes de Back-end com NodeJS_
-- [ ] 22-4: _NodeJS - Express: HTTP com NodeJS_
-- [ ] 22-5: _NodeJS - Express:Middlewares_
+- [X] 22-1: _NodeJS - Introdução_
+- [X] 22-2: _NodeJS - Fluxo Assíncrono_
+- [X] 22-3: _NodeJS - Mocha, Chai e Sinon - Testes de Back-end com NodeJS_
+- [X] 22-4: _NodeJS - Express: HTTP com NodeJS_
+- [X] 22-5: _NodeJS - Express:Middlewares_
 - [ ] 22-6: _Projeto - Talker Manager_
 
 ### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
