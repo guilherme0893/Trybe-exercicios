@@ -168,23 +168,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 22-3: _NodeJS - Mocha, Chai e Sinon - Testes de Back-end com NodeJS_
 - [X] 22-4: _NodeJS - Express: HTTP com NodeJS_
 - [X] 22-5: _NodeJS - Express:Middlewares_
-- [ ] 22-6: _Projeto - Talker Manager_
+- [X] 22-6: _Projeto - Talker Manager_
 
 ### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 23-1: _Arquitetura de Software - Camada de Model_
-- [ ] 23-2: _Arquitetura de Software : Camada de Controller e Service_
-- [ ] 23-3: _Arquitetura Web - Rest & Restful_
-- [ ] 23-4: _Arquitetura de Software - Testando as Camadas_
-- [ ] 23-5: _Projeto - Store Manager_
+- [X] 23-1: _Arquitetura de Software - Camada de Model_
+- [X] 23-2: _Arquitetura de Software : Camada de Controller e Service_
+- [X] 23-3: _Arquitetura Web - Rest & Restful_
+- [X] 23-4: _Arquitetura de Software - Testando as Camadas_
+- [X] 23-5: _Projeto - Store Manager_
 
 ### Bloco 24: Node.js: ORM e Autenticação
 
-- [ ] 24-1: _Node.js:ORM e Autenticação_
-- [ ] 24-1: _ORM - Interface da aplicação com banco de dados_
-- [ ] 24-2: _ORM - Associations_
-- [ ] 24-3: _JWT - (JSON Web Token)_
-- [ ] 24-4: _Testando APIs com Testes de Integração_
+- [X] 24-1: _Node.js:ORM e Autenticação_
+- [X] 24-1: _ORM - Interface da aplicação com banco de dados_
+- [X] 24-2: _ORM - Associations_
+- [X] 24-3: _JWT - (JSON Web Token)_
+- [X] 24-4: _Testando APIs com Testes de Integração_
 - [ ] 24-4: _Projeto - API de Blogs
 
 ### Bloco 25: Deployment
