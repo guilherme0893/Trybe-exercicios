@@ -1,9 +1,10 @@
 class Person {
   protected _name: string = '';
-  protected _birthDate: string = '';
+  protected _birthDate: string;
 
-  constructor(name: string) {
+  constructor(name: string, _birthDate: string) {
     this.name = name;
+    this._birthDate = _birthDate;
   }
 
   set birthDate(birthDate: string) {
@@ -26,12 +27,17 @@ class Person {
     return `${this._name} says hello`
   }
 
+  public sayGoodBye() {
+    return `${this._name} says goodbye`
+  }
+
 };
 
-const person1 =  new Person('Guilherme');
-person1.name = 'Guilherme';
-person1.birthDate = '08/11/1993';
+const person1 =  new Person('Guilherme', '08/11/1993');
+// person1.name = 'Guilherme';
+// person1.birthDate = '08/11/1993';
 console.log(person1);
 console.log(person1.sayHello());
+console.log(person1.sayGoodBye());
 
 export default Person;

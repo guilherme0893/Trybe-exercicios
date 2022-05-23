@@ -3,8 +3,8 @@ import Person from "./Person";
 class Student extends Person {
   _matricula: number = 0;
 
-  constructor(name: string, matricula: number) {
-    super(name);
+  constructor(name: string, birthDate: string, matricula: number) {
+    super(name, birthDate);
     this._name = name;
     this._matricula = matricula;
   }
@@ -19,9 +19,9 @@ class Student extends Person {
   }
 }
 
-const student = new Student('ABC', 2345678);
-student.name = 'ABC';
-student.birthDate = '1/1/1'
+const student = new Student('ABC', '1/1/1', 2345678);
+// student.name = 'ABC';
+// student.birthDate = '1/1/1'
 console.log(student);
 console.log(student.matricula);
 student._matricula = 5678;
